@@ -12,6 +12,7 @@ h1 {
 }
 section {
     display: flex;
+    margin-bottom: 125px;
 }
 .col-50 {
     width: 50%;
@@ -24,14 +25,22 @@ section {
     color: #777
 }
 .hire-btn {
+    display:inline-block;
     text-decoration: none;
     background-image: linear-gradient(#FF9772,#FF6D4F);
     color: #fff;
     padding: 10px 40px;
+    margin-top: 12px;
     border-radius: 6px;
     font-weight: 700;
 }
 .top-sec {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.mid-sec {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 75px;
 }
