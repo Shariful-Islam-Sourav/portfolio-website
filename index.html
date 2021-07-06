@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shariful Islam Sourav</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +16,7 @@
   </head>
   <body>
     <section class="top-sec flexible-sec">
-      <div class="col-50">
+      <div class="col-50" data-aos="zoom-in-right">
         <h1>Welcome to</h1>
         <h1><span class="orange">Shariful Islam</span> World!</h1>
         <h3>Mern Stack and React Developer</h3>
@@ -37,10 +38,10 @@
       </div>
     </section>
     <section class="mid-sec flexible-sec">
-      <div class="col-50">
+      <div class="col-50" data-aos="zoom-in-right">
         <img src="images/my-bg2.png" alt="shariful's Image" />
       </div>
-      <div class="col-50">
+      <div class="col-50" data-aos="zoom-in-left">
         <h1>React Developer</h1>
         <h4>MERN Stack Development</h4>
         <p>
@@ -58,7 +59,7 @@
         >
       </div>
     </section>
-    <section class="bottom-sec">
+    <section class="bottom-sec" data-aos="fade-left">
       <h1>Experiences</h1>
       <div class="flexible-sec">
         <div class="experience-container" id="left-ex">
@@ -72,7 +73,11 @@
             100% web solution.
           </p>
         </div>
-        <div class="experience-container" id="right-ex">
+        <div
+          class="experience-container"
+          id="right-ex"
+          data-aos="fade-up-right"
+        >
           <h1>Junior Web Hero</h1>
           <h3 class="orange">2019-Present | Self-Learning</h3>
           <p>
@@ -87,6 +92,13 @@
     <footer>
       <p>© Copyright 2021, Dhaka. Shariful Islam Sourav Creation.</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 200,
+      });
+    </script>
   </body>
 </html>
 
